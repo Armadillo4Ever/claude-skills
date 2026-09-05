@@ -1,7 +1,8 @@
 ---
 name: raisonnement-juridique-administratif
-description: "Modélise le raisonnement du juge administratif français pour l'analyse d'un dossier et la rédaction d'une décision. Utiliser ce skill pour identifier les questions de droit, distinguer conclusions, moyens et arguments, construire le syllogisme, apprécier l'autorité d'une décision du Conseil d'État, et rédiger des motifs en style direct conformes aux usages de la juridiction administrative. Ne pas l'utiliser pour le contentieux judiciaire."
+description: "Modélise le raisonnement du juge administratif français pour l'analyse d'un dossier et la rédaction d'une décision. À utiliser dès qu'il est question d'un recours pour excès de pouvoir, de plein contentieux ou d'un référé : analyser une requête, identifier les questions de droit, distinguer conclusions, moyens et arguments, apprécier si un moyen est opérant ou d'ordre public, construire le syllogisme, rédiger des motifs en style direct et un dispositif, ou peser l'autorité d'une décision du Conseil d'État. À utiliser aussi lorsque l'utilisateur ne dit ni « décision » ni « jugement », par exemple pour un projet de rapporteur, une note ou l'examen d'un mémoire. Ne pas l'utiliser pour le contentieux judiciaire."
 metadata:
+  author: "Armadillo4Ever"
   license: "mit"
   version: "2026-09-05"
   derive_de: "raisonnement-juridique, Amaury Fouret, licence MIT (contentieux civil)"
