@@ -54,3 +54,41 @@ Avant de clore, vérifier point par point :
 4. chaque décision citée l'est avec sa formation et son niveau de publication ;
 5. tout moyen relevé d'office a été communiqué aux parties ;
 6. le dispositif est exécutable tel qu'il est rédigé.
+
+## Exemple rédigé
+
+Les formules comptent autant que la structure. Les trois spécimens ci-dessous se lisent en une minute et fixent l'usage. Ils ne prétendent pas à l'exclusivité : plusieurs rédactions coexistent en pratique pour répondre à un moyen, et ce qui importe est que la structure du syllogisme y soit lisible. Les références de texte sont volontairement laissées en blanc, sous la forme « l'article X du code Y » : le propos porte sur la forme, et la règle qui interdit de citer un texte sans en avoir récupéré la version applicable vaut aussi pour un exemple.
+
+### Un moyen écarté
+
+> 3. Aux termes de l'article X du code Y, dans sa rédaction applicable au litige : « [texte utile] ». Il résulte de ces dispositions que l'autorité compétente ne peut refuser [l'autorisation en cause] que lorsque [conditions], et qu'il lui appartient d'apprécier [objet du contrôle] à la date à laquelle elle se prononce.
+>
+> 4. Il ressort des pièces du dossier, notamment [nature de la pièce] du [date] émanant de [auteur], que [fait établi]. Si M. A soutient que [moyen restitué dans ses termes], il ressort toutefois des mêmes pièces que [fait contraire]. Par suite, le moyen tiré de ce que [qualification du moyen] doit être écarté.
+
+Trois choses s'y jouent. La majeure énonce la règle et ses conditions, pas seulement le texte. La mineure vise la pièce par sa nature, sa date et son auteur, jamais par une désignation approximative. Et le moyen est restitué avant d'être écarté, dans les termes de la partie, faute de quoi la réponse porte sur autre chose que ce qui était soutenu.
+
+### Un moyen accueilli, suivi du dispositif
+
+> 6. Il résulte de l'article Z du code Y que [règle de compétence ou de procédure]. Le respect de cette exigence constitue [une garantie / une formalité substantielle].
+>
+> 7. Il ressort des pièces du dossier que [constat du manquement]. L'administration ne conteste pas [élément non contesté] et n'établit pas que [circonstance qui aurait pu neutraliser le vice]. Dès lors, M. A est fondé à soutenir que la décision attaquée est intervenue au terme d'une procédure irrégulière.
+>
+> 8. Il résulte de ce qui précède, sans qu'il soit besoin d'examiner les autres moyens de la requête, que M. A est fondé à demander l'annulation de la décision du [date].
+>
+> **Décide :**
+>
+> **Article 1er :** La décision du [autorité] du [date] est annulée.
+
+Le paragraphe 8 fait deux choses en une phrase : il tire la conséquence et il assume l'économie de moyens en la disant. La formule « sans qu'il soit besoin d'examiner les autres moyens » n'est pas une clause de style, c'est ce qui explique au lecteur pourquoi les moyens restants ne reçoivent pas de réponse. L'omettre transforme une économie de moyens en omission de statuer apparente.
+
+### Un motif défectueux et sa correction
+
+Défectueux :
+
+> Il semble que l'administration n'ait pas suffisamment motivé sa décision, laquelle apparaît au demeurant peu opportune au regard de la situation de l'intéressé.
+
+Trois défauts en une phrase. « Il semble » et « apparaît » sont dubitatifs : le juge constate, il ne conjecture pas. « Au demeurant » introduit un motif surabondant. Et l'opportunité échappe au contrôle de légalité.
+
+Corrigé :
+
+> La décision attaquée se borne à viser [le texte] sans énoncer les considérations de droit et de fait qui en constituent le fondement. Elle est ainsi insuffisamment motivée.
