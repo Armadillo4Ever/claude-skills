@@ -9,8 +9,9 @@ Skills pour Claude, écrites pour le travail juridique et pour la construction d
 | [`raisonnement-juridique-administratif`](skills/raisonnement-juridique-administratif) | Raisonnement du juge administratif : analyse du dossier, conclusions, moyens et arguments, questions préalables, grille propre à chaque contentieux (excès de pouvoir, fiscal, indemnitaire, appel, cassation), office du juge, syllogisme et motivation, autorité des décisions, structure de la décision. Avec une référence sur le contentieux fiscal, articles vérifiés sur Légifrance. |
 | [`examen-consultatif-projet-de-texte`](skills/examen-consultatif-projet-de-texte) | Examen juridique d'un projet de texte normatif, dans l'ordre consultatif : compétence, base légale, consultations, constitutionnalité, conventionnalité, articulation avec le droit existant, légistique, outre-mer, entrée en vigueur. |
 | [`legistique-modifications-de-textes`](skills/legistique-modifications-de-textes) | Lire, appliquer et rédiger les instructions par lesquelles un texte en modifie un autre ; décompte des alinéas, désignations composées, consolidation, tableau à trois colonnes. |
+| [`relecture-legistique`](skills/relecture-legistique) | Relecture de la forme d'un projet de texte au regard des fiches du guide de légistique : langue, temps et mode, sigles, termes juridiques, articles et alinéas, ponctuation, typographie du Journal officiel, visas, renvois. Rendu sous forme de tableau d'écarts, chacun fondé sur une fiche. |
 
-Les trois skills se complètent : l'examen consultatif appelle la légistique des modifications pour lire un texte modificatif ; le raisonnement administratif vaut pour le contentieux et ne se transpose pas au consultatif.
+Les quatre skills se complètent : l'examen consultatif porte sur le fond du projet et appelle la légistique des modifications pour lire un texte modificatif ; la relecture légistique ne porte que sur la forme ; le raisonnement administratif vaut pour le contentieux et ne se transpose pas au consultatif.
 
 ## Installation
 
