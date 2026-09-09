@@ -1,10 +1,9 @@
 ---
 name: raisonnement-juridique-administratif
-description: "Modélise le raisonnement du juge administratif français pour l'analyse d'un dossier et la rédaction d'une décision. À utiliser dès qu'il est question d'un recours pour excès de pouvoir, de plein contentieux ou d'un référé : analyser une requête, identifier les questions de droit, distinguer conclusions, moyens et arguments, apprécier si un moyen est opérant ou d'ordre public, construire le syllogisme, rédiger des motifs en style direct et un dispositif, ou peser l'autorité d'une décision du Conseil d'État. À utiliser aussi lorsque l'utilisateur ne dit ni « décision » ni « jugement », par exemple pour un projet de rapporteur, une note ou l'examen d'un mémoire. Ne pas l'utiliser pour le contentieux judiciaire."
+description: "Modélise le raisonnement du juge administratif français pour l'analyse d'un dossier et la rédaction d'une décision. Utiliser ce skill pour identifier les questions de droit, distinguer conclusions, moyens et arguments, appliquer la grille propre à chaque contentieux (excès de pouvoir, plein contentieux fiscal ou indemnitaire, appel, cassation), traiter les questions préalables et les fins de non-recevoir, construire le syllogisme, apprécier l'autorité d'une décision du Conseil d'État, et rédiger des motifs en style direct conformes aux usages de la juridiction administrative. Ne pas l'utiliser pour le contentieux judiciaire."
 metadata:
-  author: "Armadillo4Ever"
   license: "mit"
-  version: "2026-09-05"
+  version: "2026-09-09"
   derive_de: "raisonnement-juridique, Amaury Fouret, licence MIT (contentieux civil)"
 ---
 
@@ -56,9 +55,56 @@ Le juge statue sur toutes les conclusions et seulement sur elles. Statuer au del
 
 Les moyens se rattachent à des causes juridiques distinctes, la légalité externe et la légalité interne. Un moyen relevant d'une cause juridique nouvelle, invoqué après l'expiration du délai de recours, est irrecevable, sous réserve des moyens d'ordre public. C'est la règle issue de la jurisprudence Intercopie : en retrouver la référence exacte et le verbatim dans le fonds avant de la citer.
 
+Une quatrième catégorie, distincte des trois précédentes, doit être isolée : les **questions préalables**. Elles se traitent avant le fond et n'ont pas la nature de moyens.
+
+- Le non-lieu à statuer, lorsque les conclusions sont devenues sans objet, notamment par un dégrèvement en cours d'instance ou par l'abrogation de l'acte attaqué.
+- Le désistement.
+- La forclusion et la tardiveté.
+- Les fins de non-recevoir opposées par le défendeur : irrecevabilité de conclusions nouvelles en appel, défaut d'intérêt à agir, absence de recours administratif préalable obligatoire, absence de réclamation préalable en matière fiscale.
+
+Ranger une fin de non-recevoir parmi les moyens du requérant, ou une question de recevabilité parmi les moyens de procédure, fausse le plan de la décision.
+
 Voir `references/conclusions-moyens-arguments.md`.
 
-## 3. Office du juge administratif
+## 3. La grille propre à chaque contentieux
+
+Le plan des motifs n'est pas le même selon la nature du litige. Choisir la grille avant de qualifier les moyens : une grille mal choisie produit des qualifications fausses.
+
+### Excès de pouvoir et plein contentieux objectif
+
+Deux causes juridiques, dans cet ordre : la **légalité externe**, qui comprend l'incompétence, le vice de procédure et le vice de forme, puis la **légalité interne**, qui comprend le défaut de base légale, l'erreur de droit, l'erreur de fait, l'erreur de qualification juridique, l'erreur manifeste d'appréciation et le détournement de pouvoir.
+
+Les moyens de légalité externe sont les plus souvent négligés : les rechercher expressément.
+
+### Plein contentieux fiscal
+
+Ne pas employer ici les catégories de légalité externe et de légalité interne : elles ne sont pas celles de la matière. Trois temps, dans cet ordre : la **régularité du jugement** lorsque l'acte attaqué est un jugement ; la **procédure d'imposition**, qui ne concerne que la régularité du contrôle et de la rectification ; le **bien-fondé** de l'imposition, assiette, taux, qualification, pénalités.
+
+**Piège caractéristique.** La recevabilité de la réclamation préalable (existence, délai, preuve de l'envoi) n'est **pas** un moyen de procédure d'imposition : c'est une question préalable, qu'elle soit soulevée par le requérant ou opposée par l'administration. La ranger en procédure conduit à répondre au mauvais endroit, et parfois à statuer au fond sur une demande irrecevable.
+
+Le contentieux fiscal a en outre ses règles propres, charge de la preuve, garanties du contribuable, dégrèvement et non-lieu, substitution de base légale, compensation, pénalités, qui relèvent d'un développement séparé : voir `references/contentieux-fiscal.md`.
+
+### Plein contentieux indemnitaire
+
+Les points de la responsabilité, dans cet ordre : le **fait générateur**, faute ou responsabilité sans faute selon le régime applicable ; le **lien de causalité**, direct et certain ; puis **chaque préjudice** invoqué, avec son évaluation. Vérifier au passage la demande préalable d'indemnisation et la prescription quadriennale.
+
+### Appel
+
+La **régularité du jugement** vient en tête, avant le bien-fondé de la solution retenue. Ne pas confondre les deux : la critique de la motivation est un moyen de régularité, la critique de la solution est un moyen de fond.
+
+Identifier les rôles avec soin. L'**appelant** est celui qui saisit la cour et demande l'annulation ou la réformation du jugement, **même lorsqu'il s'agit de l'administration** : ses conclusions sont celles du demandeur à l'instance d'appel. L'**intimé** conclut au rejet de la requête et à la confirmation du jugement. Placer l'annulation du jugement du côté du défendeur est une inversion qui rend toute la suite incohérente.
+
+La simple demande d'annulation ou de réformation du jugement est une **conclusion**, non un moyen : ne pas la faire figurer parmi les moyens.
+
+Vérifier enfin l'irrecevabilité des conclusions nouvelles en appel, et l'effet dévolutif.
+
+### Cassation
+
+Deux ensembles : la **régularité de la décision attaquée**, composition de la formation, motivation, procédure ; et son **bien-fondé**, erreur de droit, dénaturation des pièces ou des faits, erreur de qualification juridique.
+
+Le juge de cassation ne rejuge pas les faits : un moyen qui n'invite qu'à leur réappréciation est inopérant, sauf dénaturation. Distinguer ce qui relève du contrôle de qualification juridique de ce qui relève de l'appréciation souveraine.
+
+## 4. Office du juge administratif
 
 Points structurants, développés dans `references/office-du-juge-administratif.md` :
 
@@ -68,7 +114,7 @@ Points structurants, développés dans `references/office-du-juge-administratif.
 - Le juge de l'excès de pouvoir peut se borner à retenir un moyen suffisant pour prononcer l'annulation. Cette économie de moyens connaît des limites, notamment lorsque l'examen d'un autre moyen commande les mesures d'exécution ou l'injonction sollicitée. Trancher ce point explicitement plutôt que par défaut.
 - Le juge de plein contentieux se prononce sur la situation à la date de sa décision, le juge de l'excès de pouvoir apprécie en principe la légalité à la date de l'acte. Vérifier la règle propre au contentieux en cause avant de fixer la date d'appréciation.
 
-## 4. Syllogisme et motivation
+## 5. Syllogisme et motivation
 
 La motivation s'écrit en style direct, par paragraphes numérotés, à l'indicatif présent. Le « considérant que » est abandonné.
 
@@ -82,7 +128,7 @@ Proscrire les motifs hypothétiques, dubitatifs ou surabondants. Un motif qui ne
 
 Voir `references/syllogisme-et-motivation.md`.
 
-## 5. Autorité des décisions
+## 6. Autorité des décisions
 
 Deux échelles se combinent, la formation de jugement et le niveau de publication. Elles ne se substituent pas l'une à l'autre : une décision d'Assemblée publiée prime, une décision inédite d'une chambre ne fonde pas à elle seule une solution de principe.
 
@@ -96,18 +142,20 @@ Vérifier systématiquement qu'une décision ancienne n'a pas été abandonnée.
 
 Voir `references/hierarchie-jurisprudence-administrative.md`.
 
-## 6. Structure de la décision
+## 7. Structure de la décision
 
 Visas, motifs, dispositif. Les mentions obligatoires figurent à l'article R. 741-2 du code de justice administrative : en récupérer le texte en vigueur avant de vérifier une décision.
 
 Voir `references/structure-decision.md`.
 
-## 7. Points de vigilance
+## 8. Points de vigilance
 
 À faire :
 
 - Vérifier la compétence, la recevabilité et l'existence d'un litige avant le fond.
+- Choisir la grille du contentieux en cause avant de qualifier les moyens.
 - Traiter la légalité externe avant la légalité interne, sauf motif exprès de faire autrement.
+- Traiter les questions préalables, dont les fins de non-recevoir, avant le fond.
 - Communiquer tout moyen relevé d'office avant de s'en saisir.
 - Récupérer le texte intégral de chaque article et de chaque motif cité.
 - Indiquer le niveau de publication de chaque décision citée.
@@ -120,10 +168,16 @@ Voir `references/structure-decision.md`.
 - Citer un texte dans sa version actuelle pour un litige régi par une version antérieure.
 - Écrire un motif hypothétique ou dubitatif.
 - Répondre aux arguments plutôt qu'aux moyens.
+- Employer les catégories de légalité externe et interne en matière fiscale.
+- Ranger la recevabilité de la réclamation préalable parmi les moyens de procédure d'imposition.
+- Placer l'annulation du jugement du côté de l'intimé, ou traiter cette demande comme un moyen.
 - Nommer une pièce ou une source autrement que par sa dénomination réelle.
 
 ## Fichiers de référence
 
+Ces fichiers accompagnent la version publiée sur GitHub (dépôt `claude-skills`) ; le présent SKILL.md se suffit pour l'essentiel.
+
+- `references/contentieux-fiscal.md`
 - `references/office-du-juge-administratif.md`
 - `references/conclusions-moyens-arguments.md`
 - `references/syllogisme-et-motivation.md`
