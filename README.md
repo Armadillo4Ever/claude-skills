@@ -1,5 +1,7 @@
 # claude-skills
 
+English version: [README.en.md](README.en.md)
+
 Skills pour Claude, écrites pour le travail juridique et pour la construction d'outils d'aide à la rédaction en droit administratif français.
 
 ## Contenu
