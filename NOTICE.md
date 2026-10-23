@@ -1,5 +1,7 @@
 # Attributions
 
+Sauf mention contraire ci-dessous, les skills de ce dépôt sont des œuvres originales d'Armadillo4Ever, diffusées sous licence MIT (voir LICENSE). Les skills `identification-des-moyens-contentieux-administratif` et `ordonnances-juridictionnelles-contentieux-administratif` ont été établies à partir de données publiques seulement : code de justice administrative (Légifrance, licence ouverte), open data des décisions de la juridiction administrative (opendata.justice-administrative.fr, licence ouverte), sujets publics du concours de recrutement direct des magistrats des tribunaux administratifs et cours administratives d'appel.
+
 ## skills/raisonnement-juridique-administratif
 
 Dérivé de la skill `raisonnement-juridique` d'Amaury Fouret, publiée sous licence MIT
